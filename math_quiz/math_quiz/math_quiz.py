@@ -79,6 +79,10 @@ def math_quiz():
     #print final score        
     print(f"\nGame over! Your score is: {score}/{total_questions}")
 
-if __name__ == "__main__":
+
+def main():
     math_quiz()
+    
+if __name__ == "__main__":
+    main()
     
